@@ -185,3 +185,26 @@
   background-color: #1d8f4c;
   transition: background-color 0.3s linear;
 }
+
+@media (max-width: 576px) {
+  .chat-header h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .message-list {
+    height: 300px;
+  }
+
+  .message .content {
+    margin-right: 0;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+
+  .answer .content {
+    margin-left: 20px;
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
